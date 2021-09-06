@@ -1,13 +1,10 @@
 package BasicConcepts;
 
-public class Demo123 {
+public class ArrayConcept {
 
 	public static void main(String[] args) {
-	
-		
-		
-		
-		
+		// TODO Auto-generated method stub
+
 	}
 
 }
