@@ -25,6 +25,9 @@ public class Car {
 		c3.model = 2020;
 		c3.wheel = 4;
 		
+		
+		System.out.println("Before assigning the references........");
+		
 		System.out.println(c1.model);
 		System.out.println(c1.wheel);
 		
@@ -35,7 +38,19 @@ public class Car {
 		System.out.println(c3.wheel);
 		
 		
-
+		System.out.println("After assigning the references........");
+		
+		
+		c1 = c2;
+		c2 = c3;
+		c3 = c1;
+		
+		c1.model = 10;
+		System.out.println(c1.model);//10
+		c3.model = 2000;
+		System.out.println(c1.model);//2000
+		System.out.println(c3.model);//2000
+		
 	}
 
 }
