@@ -29,9 +29,19 @@ public class LoopConcepts {
 		for(int k=10;k>=10;k--) {//Initialization, conditional, Decremental
 			System.out.println(k);
 		}
+		System.out.println("*********************************************");
 		
 		
+		for(int p=1; p<=50;p++) {
+			
+			if(p%2==1) {
+				System.out.println(p);
+			}
+		}
 		
+		System.out.println("*********************************************");
+	
+	
 	}
 
 }
